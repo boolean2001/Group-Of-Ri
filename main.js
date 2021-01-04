@@ -7,7 +7,7 @@ class Ri {
     render() {
         document.title = 'Group__Ri-oc_cho'
         this.$('body').style.background = '#000'
-        this.$('#root').innerHTML = this.renderHtml(`Ri oc cho .. lew lew`)
+        this.$('#root').innerHTML = this.renderHtml(`Ri oc cho .. lew lew .. bi ngu lonnnnnn`)
         setInterval(() => {
             this.$('#form').style.color = this.RandomColor()
         }, 500)
